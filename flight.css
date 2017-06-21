@@ -1,0 +1,70 @@
+#logo{
+  /*float:left;*/
+  width: 30px;
+  height: 30px;
+}
+.Flying-from{
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.tmDatepicker{
+
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+#home{
+background-color: #E8E8E8;
+width: 400px;
+height: 400px;
+}
+
+#menu1{
+  background-color: #E8E8E8;
+  width: 400px;
+  height: 400px;
+}
+#menu2{
+margin-top: 20px;
+}
+
+
+
+#location-input{
+  margin-bottom: 10px;
+  display: inline-flex;
+
+
+
+}
+#destination-input{
+    margin-bottom: 10px;
+display: inline-flex;
+
+}
+#arrival-input{
+    margin-bottom: 10px;
+    display: inline-flex;
+
+}
+#departure-input{
+    margin-bottom: 10px;
+    display: inline-flex;
+
+}
+#interest-input{
+    margin-bottom: 10px;
+    display: inline-flex;
+
+}
+.resultcontainer{
+  background-color: #BFBFBF;
+  margin-top: 100px;
+}
+
+.flight-result{
+  background-color: #BFBFBF;
+  margin-top: 100px;
+}
