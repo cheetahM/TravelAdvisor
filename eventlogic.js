@@ -45,7 +45,7 @@ $("#findEvent").on("click", function(event){
 			var eventVenueResult = $("<span></span>").addClass("buy-button-venue").text("Venue: " + response.events.event[i].venue_name);
 			a.append(eventVenueResult);
 
-			var eventPriceButton = $("<button>").attr("data-eventfulid", response.events.event[i].id).attr("id", "price-button-id-" + i).addClass("event-detail-button").text("Click for Pricing");
+			var eventPriceButton = $("<span></span>").attr("data-eventfulid", response.events.event[i].id).attr("id", "price-button-id-" + i).addClass("event-detail-button").text("Click for Pricing");
 			a.append(eventPriceButton);
 
 			$("#event-results").append(a);
