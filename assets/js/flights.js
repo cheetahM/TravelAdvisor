@@ -1719,9 +1719,8 @@ var destination = $('#fDestination').val();
 var departingDate = $('#departingDate').val();
 var returningDate = $('#returningDate').val();
 
-// var apikey = "AIzaSyBf_sxIn1lzHh9N4IkjVZK5_rIqkgak7mw";
 //api key for QPX
-var apikey = "AIzaSyBXOHHsl27QWnczv_vb3Q_X4ZzRCjypUik";
+var apikey = "AIzaSyBf_sxIn1lzHh9N4IkjVZK5_rIqkgak7mw";
 var endPoint = "https://www.googleapis.com/qpxExpress/v1/trips/search?key="+apikey;
 
 $( "#searchFlights" ).submit(function(event) {
