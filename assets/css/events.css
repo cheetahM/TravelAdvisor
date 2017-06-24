@@ -1,0 +1,27 @@
+#eventTable{
+  display: none;
+}
+
+#itineraryTable{
+  display: none;
+}
+
+#eventResults {
+    display:none;
+}
+
+#events {
+   display: none; 
+}
+
+#itinerary {
+    display: none;
+}
+
+.buy-button-title{
+ font-size: 25px;
+ font-family: bold;
+}
+.panel-heading{
+ background-color: gray;
+}
