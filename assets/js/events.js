@@ -41,8 +41,8 @@ $("#findEvent").on("click", function(event){
 			var eventStartResult = $("<span></span>").addClass("buy-button-start-time").text("Start Time: " + response.events.event[i].start_time);
 			a.append(eventStartResult);
 
-			var eventEndResult = $("<span></span><br>").addClass("buy-button-end-time").text(" End Time: " + response.events.event[i].stop_time);
-			a.append(eventEndResult);
+			// var eventEndResult = $("<span></span><br>").addClass("buy-button-end-time").text(" End Time: " + response.events.event[i].stop_time);
+			// a.append(eventEndResult);
 
 			var eventVenueResult = $("<span></span><br>").addClass("buy-button-venue").text("Venue: " + response.events.event[i].venue_name);
 			a.append(eventVenueResult);
@@ -59,6 +59,8 @@ $("#findEvent").on("click", function(event){
 				console.log(z);
 				var x = $(this).text();
 				console.log(x);
+				$('#fAirline').html(selectedFlight.airline);
+				$('#fPrice').html(selectedFlight.price);
 				$("#itinerary-results").text(x);
 				showItineraryResults();
                 $('html,body').animate({

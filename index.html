@@ -110,10 +110,10 @@
       <span class="sr-only">Next</span>
     </a>
 
-    <h1 id="homeHeading">Your Favorite Trvel deal advisor</h1>
+    <!--<h1 id="homeHeading">Your Favorite Trvel deal advisor</h1>
     <hr>
     <p>We can help you find amazing deals!</p>
-    <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+    <a href="#services" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
 </div>
         </div>
     </header>
@@ -305,9 +305,21 @@
                         <div class="panel-heading">
                             <h3 class="panel-title">Final Itinerary</h3>
                         </div>
-                        <div class="panel-body" id="itinerary-results"></div>  
+                        <div class="panel-body" id="flight-results">
+                            <div>Airline:<span id="fAirline"></span></div>
+                            <div>Price:<span id="fPrice"></span></div>  
+                        </div>  
+                        <div class="panel-body" id="itinerary-results"> 
+                        </div>  
                     </div> 
-                    <div class="event-detail-container"></div>
+                    <div class="panel-body">
+                        <form>
+                            <label>
+                                Enter your email to get this awesome deal
+                                <input type="email" placeholder="example@test.com">
+                            </label>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
