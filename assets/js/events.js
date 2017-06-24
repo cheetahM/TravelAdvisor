@@ -20,6 +20,7 @@ $("#findEvent").on("click", function(event){
 	var eventSearchURL = "http://crossorigin.me/http://api.eventful.com/json/events/search?app_key=wHxG23mXN4PJV7cR&page_size=5&page_number=1&location=" + location + "&date=" + dateRange + "&keywords=" + interests;
 	
 	console.log(eventSearchURL);
+	$('#eventResults').addClass('show');
 	showEventResults();
 
 
