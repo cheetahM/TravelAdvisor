@@ -59,7 +59,7 @@ $("#findEvent").on("click", function(event){
 				console.log(z);
 				var x = $(this).text();
 				console.log(x);
-				$("#itinerary-results").text(x + z);
+				$("#itinerary-results").text(x);
 				showItineraryResults();
                 $('html,body').animate({
                     scrollTop: $('#itinerary').offset().top},'slow');
@@ -150,7 +150,7 @@ function displayEventPrice() {
 
 		} else {
 
-			$("#" + buttonID).text(response.price);
+			//$("#" + buttonID).text(response.price);
 
 		}
 
