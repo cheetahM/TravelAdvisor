@@ -1,6 +1,4 @@
 # TravelAdvisor
-===============
-
 
 Find deals for your travel within your budget
 
