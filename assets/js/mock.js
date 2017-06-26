@@ -1,4 +1,5 @@
-{  
+// mock for testing
+var mockData = {  
    "kind":"qpxExpress#tripsSearch",
    "trips":{  
       "kind":"qpxexpress#tripOptions",
@@ -1679,4 +1680,4 @@
          }
       ]
    }
-}
+};
